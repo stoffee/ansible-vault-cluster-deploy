@@ -1,0 +1,9 @@
+vault_version: '1.12.0+ent' #new vault production version
+vault_license_directory: '/etc/vault.d'
+vault_license_file: 'files/vault.hclic'
+vault_tls_disable: false
+vault_tls_directory: '/etc/vault.d/tls'
+vault_tls_cert_file: 'files/cert.pem'
+vault_tls_key_file: 'files/server.key'
+vault_seal:
+  type: 'shamir'
