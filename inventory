@@ -1,5 +1,0 @@
-[vault:children]
-#[vault-cluster-vm-name]
- vaultserver01.XXXXXX.com
- vaultserver02.XXXXXXXX.com
- vaultserver03.XXX.com
