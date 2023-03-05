@@ -19,7 +19,7 @@ SecureBits=keep-caps
 AmbientCapabilities=CAP_IPC_LOCK
 CapabilityBoundingSet=CAP_SYSLOG CAP_IPC_LOCK
 NoNewPrivileges=yes
-ExecStart={{ vault_install_directory }}/vault server -config=/etc/vault.d/vault.hcl
+ExecStart={{ vault_install_directory }}/vault server -config=/etc/vault.d/config.hcl
 ExecReload=/bin/kill --signal HUP $MAINPID
 KillMode=process
 KillSignal=SIGINT
@@ -28,9 +28,9 @@ RestartSec=5
 TimeoutStopSec=30
 LimitNOFILE=65536
 LimitMEMLOCK=infinity
-Environment="HTTPS_PROXY=http://proxy-web.xxxxx.com:80"
-Environment="HTTP_PROXY=http://proxy-web.xxxxx.com:80"
-Environment="NO_PROXY=localhost,127.0.0.1,.xxxxx.com"
+#Environment="HTTPS_PROXY=http://proxy-web.xxxxx.com:80"
+#Environment="HTTP_PROXY=http://proxy-web.xxxxx.com:80"
+#Environment="NO_PROXY=localhost,127.0.0.1,.xxxxx.com"
 
 [Install]
 WantedBy=multi-user.target

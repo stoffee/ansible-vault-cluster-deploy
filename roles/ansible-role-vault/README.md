@@ -45,7 +45,7 @@ Ansible variables are listed below, along with default values (see `defaults/mai
 ### `vault_config_file`
 
 - Location of the Vault configuration file
-- Default value: `/etc/vault.d/vault.hcl`
+- Default value: `/etc/vault.d/config.hcl`
 
 ### `vault_plugin_directory`
 
@@ -80,7 +80,7 @@ Ansible variables are listed below, along with default values (see `defaults/mai
 ### `vault_vault_license_path`
 
 - Location of the Vault license file
-- Default value: `/opt/vault/license/vault.hclic`
+- Default value: `/opt/vault/license/config.hclic`
 
 ### `vault_client_addr`
 
