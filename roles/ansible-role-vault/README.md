@@ -80,7 +80,7 @@ Ansible variables are listed below, along with default values (see `defaults/mai
 ### `vault_vault_license_path`
 
 - Location of the Vault license file
-- Default value: `/opt/vault/license/config.hclic`
+- Default value: `/opt/vault/license/vault.hclic`
 
 ### `vault_client_addr`
 

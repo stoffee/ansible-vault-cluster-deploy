@@ -100,4 +100,4 @@ license_path = "{{ vault_license_directory }}/{{ vault_license_file | basename }
 api_addr      = "{{ proto }}://{{ ansible_fqdn }}:{{ vault_http_port }}"
 cluster_addr  = "{{ proto }}://{{ ansible_fqdn }}:{{ vault_api_port }}"
 ui            = {{ vault_ui_enable | lower }}
-plugin_directory="{{ vault_data_directory }}/plugins" #updated by srikark
+plugin_directory="{{ vault_data_directory }}/plugins"

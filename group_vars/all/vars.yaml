@@ -1,6 +1,6 @@
 vault_version: '1.12.3+ent' #new vault production version
 vault_license_directory: '/etc/vault.d'
-vault_license_file: 'files/config.hclic'
+vault_license_file: 'files/vault.hclic'
 vault_tls_disable: false
 vault_tls_directory: '/etc/vault.d/tls'
 vault_tls_cert_file: 'files/cert.pem'
